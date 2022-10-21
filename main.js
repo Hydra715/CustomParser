@@ -7,10 +7,10 @@ function findMatch(numbers) {
   let result = [] 
   
   for (let number of numbers) {
-    if (map.has(number)) {
-      map.set(number, map.get(number) + 1)
+    if (map.has(+number)) {
+      map.set(+number, map.get(+number) + 1)
     } else {
-      map.set(number, 1)
+      map.set(+number, 1)
     }
   }
   console.log(map)
@@ -27,4 +27,12 @@ function findMatch(numbers) {
 button.addEventListener("click", () => {
   let arr = inputWindow.value.split(',')
   outputValue.innerText = findMatch(arr)
+})
+
+button.addEventListener("mousedown", () => {
+  button.classList.add('buttondown')
+})
+
+button.addEventListener("mouseup", () => {
+  button.classList.remove('buttondown')
 })

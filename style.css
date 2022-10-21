@@ -1,4 +1,4 @@
-#d3cad7adding: 0;
+#3c3c3cadding: 0;
 	box-sizing: border-box;
 }
 
@@ -42,7 +42,18 @@ h2{
 .button{
 	height:25px;
 	width:100px;
-	margin: 250px 0px 0px 0px
+	margin: 250px 0px 0px 0px;
+	background-color: #282928;
+	color: #fff;
+	font-family: inherit;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 5px;
+	
+}
+
+.buttondown {
+	background-color: #3c3c3c;
 }
 
 .center{
