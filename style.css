@@ -24,6 +24,12 @@ h2{
 	color: #d3cad7
 }
 
+footer {
+	text-align:center;
+	color:white;
+	font-family:initial
+}
+
 .inputText{
 	margin: 10px 10px 10px;
 	height:500px;
