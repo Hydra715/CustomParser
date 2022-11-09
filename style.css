@@ -64,15 +64,17 @@ footer {
 }
 
 .center{
-	margin: 0px 0px 0px 95px;
+	margin: 0px 0px 0px 120px;
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content:center;
+	justify-content:
+	center;
 }
 
 .output{
 	height:100px;
 	width:800px;
+	overflow:hidden;
 	background-color: #282928;
 	color: #fff;
 	padding: 10px;
@@ -83,10 +85,11 @@ footer {
 	font-weight: 300;
 }
 
-.outputText{
+.outputText {
 	display:flex;
 	justify-content:center;
 }
+
 ::-webkit-scrollbar {
 width: 10px;
 height: 10px;
